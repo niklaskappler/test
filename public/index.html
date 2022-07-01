@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Meondi Events</title>
+  <!-- styles-->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- web-font loader-->
+  <script>
+    WebFowntConfig = {
+      google: {
+        families: ["Quicksand:300,400,500,700", "Permanent+Marker:400"],
+      },
+    };
+
+    function font() {
+      var wf = document.createElement("script");
+
+      wf.src =
+        ("https:" == document.location.protocol ? "https" : "http") +
+        "://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js";
+      wf.type = "text/javascript";
+      wf.async = "true";
+
+      var s = document.getElementsByTagName("script")[0];
+
+      s.parentNode.insertBefore(wf, s);
+    }
+
+    font();
+  </script>
+</head>
+<body>
+<div class="page-wrapper">
+  <main>
+    <section class="promo-primary">
+      <picture>
+        <source srcset="img/events.jpg" media="(min-width: 992px)" />
+        <img class="img--bg" src="img/events.jpg" alt="img" />
+      </picture>
+      <div class="container">
+        <div class="row">
+          <div class="col-auto">
+            <div class="align-container">
+              <div class="align-container__item">
+                <span class="promo-primary__pre-title">Meondi</span>
+                <h1 class="promo-primary__title">
+                  <span>Unsere</span> <span>Events</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- events inner start-->
+    <section class="section events-inner">
+      <div class="container">
+        <div class="row offset-30">
+          <div>
+            <div class="upcoming-item">
+              <div class="upcoming-item__date">
+                <span>30</span><span>Okt, 19</span>
+              </div>
+              <div class="upcoming-item__body">
+                <div class="upcoming-item__body-inner">
+                  <div>
+                    <div class="upcoming-item__img">
+                      <img
+                        class="img--bg"
+                        src="img/event_1.jpg"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="upcoming-item__description">
+                      <h6 class="upcoming-item__title">
+                        Office Eröffnung
+                      </h6>
+                      <p>
+                        Unser neues Office startet und wir freuen uns euch zur großen Eröffnungsparty begrüßen zu dürfen.
+                      </p>
+                      <div class="upcoming-item__details">
+                        <p>
+                          <svg class="icon">
+                            <use xlink:href="#clock"></use>
+                          </svg>
+                          <strong>September 30,</strong> 10:00 -
+                          <strong>Oktober 31,</strong> 22:00
+                        </p>
+                        <p>
+                          <svg class="icon">
+                            <use xlink:href="#placeholder"></use>
+                          </svg>
+                          <strong>SI Zentrum,</strong> Stuttgart, Deutschland
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- events inner end-->
+  </main>
+</div>
+<div style="display: none">
+  <?xml version="1.0" encoding="utf-8"?><svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <symbol
+    fill="none"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="ahfeather ahfeather-clock"
+    viewBox="0 0 24 24"
+    id="clock"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 6v6l4 2" />
+  </symbol>
+  <symbol
+    fill="none"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="aufeather aufeather-map-pin"
+    viewBox="0 0 24 24"
+    id="placeholder"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+    <circle cx="12" cy="10" r="3" />
+  </symbol>
+</svg>
+</div>
+</body>
+</html>
